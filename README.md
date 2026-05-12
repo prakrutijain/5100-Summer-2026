@@ -4,25 +4,18 @@ This repository was initialized as a new workspace.
 
 ## Structure
 
-- `src/` - application code
-- `tests/` - unit tests
+- `src/main/java/` - application code
+- `src/test/java/` - unit tests
+- `pom.xml` - Maven configuration
 
 ## Setup
 
-1. Create a virtual environment:
+1. Ensure Java 17+ and Maven are installed.
+2. Compile and run the app:
    ```bash
-   python -m venv .venv
-   source .venv/bin/activate
+   mvn exec:java -Dexec.mainClass="com.example.App"
    ```
-2. Install dependencies:
+3. Run tests:
    ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the app:
-   ```bash
-   python -m src.app
-   ```
-4. Run tests:
-   ```bash
-   pytest
+   mvn test
    ```
