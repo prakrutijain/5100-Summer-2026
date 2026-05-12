@@ -1,0 +1,14 @@
+[project]
+name = "new-repository"
+version = "0.1.0"
+description = "Starter repository for a new workspace."
+authors = ["<Your Name> <you@example.com>"]
+readme = "README.md"
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
