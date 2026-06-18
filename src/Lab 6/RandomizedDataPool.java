@@ -97,3 +97,6 @@ public class RandomizedDataPool {
 // Space Complexity: O(n) where n = total number of elements in the pool
 // - pool stores all values including duplicates
 // - uniqueVals stores only unique values, at most n entries
+
+// Note: Test cases include both hardcoded edge cases and a dynamic loop test
+// that adds values 1 to 5 using a for loop to demonstrate scalability
