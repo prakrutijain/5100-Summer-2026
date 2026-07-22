@@ -1,0 +1,9 @@
+/Users/prakrutijain/Documents/GitHub/5100 Summer 2026/Phase3-RememberWhen/src/main/java/com/rememberwhen/app/RememberWhenApplication.java
+/Users/prakrutijain/Documents/GitHub/5100 Summer 2026/Phase3-RememberWhen/src/main/java/com/rememberwhen/app/SecurityConfig.java
+/Users/prakrutijain/Documents/GitHub/5100 Summer 2026/Phase3-RememberWhen/src/main/java/com/rememberwhen/app/controller/AuthController.java
+/Users/prakrutijain/Documents/GitHub/5100 Summer 2026/Phase3-RememberWhen/src/main/java/com/rememberwhen/app/controller/EraController.java
+/Users/prakrutijain/Documents/GitHub/5100 Summer 2026/Phase3-RememberWhen/src/main/java/com/rememberwhen/app/model/EraItem.java
+/Users/prakrutijain/Documents/GitHub/5100 Summer 2026/Phase3-RememberWhen/src/main/java/com/rememberwhen/app/model/User.java
+/Users/prakrutijain/Documents/GitHub/5100 Summer 2026/Phase3-RememberWhen/src/main/java/com/rememberwhen/app/repository/UserRepository.java
+/Users/prakrutijain/Documents/GitHub/5100 Summer 2026/Phase3-RememberWhen/src/main/java/com/rememberwhen/app/service/AuthService.java
+/Users/prakrutijain/Documents/GitHub/5100 Summer 2026/Phase3-RememberWhen/src/main/java/com/rememberwhen/app/service/EraService.java

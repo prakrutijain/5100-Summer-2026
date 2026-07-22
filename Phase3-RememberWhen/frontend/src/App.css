@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #fdf6e3, #f0e6ff);
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #5a3e85;
+  margin-bottom: 0;
+}
+
+.tagline {
+  color: #888;
+  margin-top: 4px;
+  margin-bottom: 30px;
+}
+
+.auth-form, .search-form {
+  max-width: 360px;
+  margin: 0 auto 30px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.auth-form h2, .search-form h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+input {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 12px;
+  background: #6c4fbb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #5a3e9c;
+}
+
+button:disabled {
+  background: #bbb;
+  cursor: not-allowed;
+}
+
+.switch-link {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.switch-link span {
+  color: #6c4fbb;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.switch-link span:hover {
+  text-decoration: underline;
+}
+
+.message {
+  margin-top: 20px;
+  color: #444;
+  font-weight: 500;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.era-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: left;
+}
+
+.era-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+}
+
+.no-image {
+  width: 100%;
+  height: 260px;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+}
+
+.era-card h3 {
+  font-size: 1rem;
+  margin: 10px 12px 4px 12px;
+  color: #333;
+}
+
+.era-card p {
+  font-size: 0.85rem;
+  color: #888;
+  margin: 0 12px 12px 12px;
+}

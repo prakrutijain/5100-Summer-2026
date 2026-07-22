@@ -1,0 +1,8 @@
+com/rememberwhen/app/service/AuthService.class
+com/rememberwhen/app/RememberWhenApplication.class
+com/rememberwhen/app/controller/AuthController$SignupRequest.class
+com/rememberwhen/app/controller/AuthController.class
+com/rememberwhen/app/model/User.class
+com/rememberwhen/app/repository/UserRepository.class
+com/rememberwhen/app/controller/AuthController$LoginRequest.class
+com/rememberwhen/app/model/EraItem.class
